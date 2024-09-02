@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin:0px auto;
+    background-color: orange;
+}
+
+thead th {
+    background-color: orange;
+    padding: 1px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+tbody td {
+    padding: 1px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #444444;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+input[type="radio"] {
+    margin: 0 5px;
+}
+
+label {
+    display: inline-block;
+    margin-right: 0px;
+}
